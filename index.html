@@ -11,9 +11,15 @@
 
 	<meta property="og:title" content="Page Instagram de Nina Carducci">
 	<meta property="og:description" content="Publications des projets réalisés">
-	<meta property="og:image" content="http://localhost:8000/assets/images/wepb/nina.png">
-	<meta property="og:url" content="http://localhost:8000/#gallery">
+	<meta property="og:image" content="https://medinakone.github.io/Nina-Carducci/assets/images/wepb/nina.png">
+	<meta property="og:url" content="https://medinakone.github.io/Nina-Carducci/">
 	<meta property="og:type" content="website">
+
+	<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NinaCarducci">
+    <meta name="twitter:title" content="Nina Carducci - Photographe professionnelle">
+    <meta name="twitter:description" content="Découvrez le portfolio de Nina Carducci, une photographe passionnée spécialisée dans les portraits, mariages, concerts, et services d'entreprise.">
+    <meta name="twitter:image" content="https://medinakone.github.io/Nina-Carducci/assets/images/wepb/nina.png">
 
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
@@ -23,6 +29,32 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 
+
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "AboutPage",
+			  "mainEntity": {
+				"@type": "CreativeWork",
+				"name": "À propos de Nina Carducci - Photographe",
+				"author": {
+				  "@type": "Person",
+				  "name": "Nina Carducci"
+				},
+				"datePublished": "2024-07-02",
+				"publisher": {
+				  "@type": "Person",
+				  "name": "Nina Carducci",
+				  "logo": {
+					"@type": "ImageObject",
+					"url": "https://www.example.com/logo.jpg"
+				  }
+				},
+				"description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer."
+			  }
+			}
+			</script>
+			
 
 </head>
 
@@ -37,7 +69,7 @@
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-							target="_blank"><img src="assets/images/instagram.png" alt="lien-instagram"></a></li>
+							target="_blank"><img src="assets/images/instagram.png" alt="lien-instagram" width="20px" height="20px"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -54,16 +86,16 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100"
-							alt="ryoji-iwata">
+						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="100%" height="676"
+							alt="ryoji-iwata" loading="lazy">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100"
-							alt="nicholas-green">
+						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" width="100%" height="676"
+							alt="nicholas-green" loading="lazy">
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
-							class="d-block w-100" alt="edward-cisneros">
+						width="100%"height="676" alt="edward-cisneros" loading="lazy">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -83,7 +115,7 @@
 	<main>
 		<section id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" alt="nina-carducci" width="407px" height="406px" loading="lazy">
+				<img src="./assets/images/nina.webp" alt="nina-carducci" max-width="407px" max-height="406px" loading="lazy">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
