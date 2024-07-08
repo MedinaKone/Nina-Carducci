@@ -116,6 +116,13 @@ body {
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
+.modal-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .item-column::after{
 	content: "";
 	display: block;
